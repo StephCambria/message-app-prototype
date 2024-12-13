@@ -1,0 +1,129 @@
+.messages {
+  display: flex;
+  flex-direction: column;
+  overflow-y: scroll;
+  scrollbar-width: none;
+}
+
+/* Navbar 
+-------------------------------------------------------- 
+Add a black background color to the top navigation / */
+.topnav {
+background-color: #33383b;
+overflow: hidden;
+padding: 10px;
+}
+
+/* Style the links inside the navigation bar / */
+.topnav a {
+background-color: white;
+color: #B59410;
+float: right;
+text-align: center;
+padding: 10px 15px;
+margin-right: 15px;
+text-decoration: none;
+font-size: 17px;
+border-radius: 14px;
+}
+/* Change the color of links on hover */
+.topnav a:hover {
+  background-color: #d1c8c3;
+  color: #6b9e7c;
+}
+
+
+/* Footer Container  */
+.footer-distributed {
+background: rgb(107, 158, 124);
+box-shadow: 0 1px 1px 0 rgba(93, 54, 54, 0.12);
+box-sizing: border-box;
+width: 100%;
+font: bold 16px sans-serif;
+text-align: left;
+padding: 30px 50px 50px 50px;
+margin-top: 60px;
+overflow: hidden;
+}
+
+
+/* --------------------------------------------------------  */
+
+/* Footer Container */
+/* .footer-distributed {
+  background: rgb(107, 158, 124);
+  box-shadow: 0 1px 1px 0 rgba(93, 54, 54, 0.12);
+  box-sizing: border-box;
+  width: 100%;
+  font: bold 16px sans-serif;
+  text-align: left;
+  padding: 30px 50px 50px 50px;
+  margin-top: 60px;
+  overflow: hidden;
+} */
+
+/* The Footer Name (Mylo)  */
+.footer-distributed h3 {
+color: #ffffff;
+font: normal 36px "Roboto", cursive;
+margin: 0 0 30px;
+}
+/* The Footer Name (Chat) */
+.footer-distributed h3 span {
+color: #163771;
+}
+
+/* Footer Links (Home/About/Contact) */
+.footer-distributed .footer-links {
+color: #ffffff;
+margin: 0 0 10px;
+padding: 0;
+}
+.footer-distributed .footer-links a {
+display: inline-block;
+line-height: 1.8;
+text-decoration: none;
+color: inherit;
+}
+
+/* Footer (MyloChat Inc.) */
+.footer-distributed .footer-company-name {
+color: #ffffff;
+font-size: 20px;
+font-weight: bolder;
+margin: 0;
+}
+
+/* Footer social icons (GitGub) */
+.footer-distributed .footer-icons a {
+display: inline-block;
+width: 40px;
+height: 40px;
+cursor: pointer;
+background-color: #ffffff;
+border-radius: 20px;
+font-size: 10px;
+text-align: center;
+line-height: 40px;
+} 
+
+/* About Us Section (About Us)*/
+.aboutbody {
+  width: 100%;
+  margin: 0;
+  padding: 0;
+}
+
+.about-section {
+  padding: 10px;
+  margin-bottom: 30px;
+  border-radius: 15 px;
+  text-align: center;
+  background-color: #474e5d;
+  color: white;
+}
+*,
+*:before,
+*:after {
+  box-sizing: inherit;
+}
